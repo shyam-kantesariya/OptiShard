@@ -1,0 +1,100 @@
+Dec 14, 2018 11:47:34 PM com.concordia.blockchain.model.udp.Server run
+INFO: Starting UDP server on port 12345
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Fri Dec 14 23:47:35 UTC 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.database.MySql openConnection
+INFO: Opened connection to database
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.node.Manager <init>
+INFO: #START_TIMESTAMP 1544831255
+Fri Dec 14 23:47:35 UTC 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.udp.Server run
+INFO: Starting UDP server on port 12347
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.database.MySql openConnection
+INFO: Opened connection to database
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:47:35 PM com.concordia.blockchain.model.node.WorkerLeader <init>
+INFO: #START_TIMESTAMP 1544831255
+Dec 14, 2018 11:47:39 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server has received a packet from host: ip-172-31-17-224.us-west-2.compute.internal port: 48150
+Dec 14, 2018 11:47:39 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:47:39 PM com.concordia.blockchain.model.udp.RequestHandler acknowledgeMessage
+INFO: Acknowledging ID#1 to ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:48150
+Dec 14, 2018 11:47:39 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 ACK PUBLIC_KEY to ip-172-31-17-224.us-west-2.compute.internal:48150
+Dec 14, 2018 11:47:39 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: Verified signature for host: ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:47:39 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: ID#1 Received INFO PUBLIC_KEY from ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:48150
+Dec 14, 2018 11:47:50 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server has received a packet from host: ip-172-31-17-224.us-west-2.compute.internal port: 56137
+Dec 14, 2018 11:47:50 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:47:50 PM com.concordia.blockchain.model.udp.RequestHandler acknowledgeMessage
+INFO: Acknowledging ID#1 to ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:56137
+Dec 14, 2018 11:47:50 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 ACK PUBLIC_KEY to ip-172-31-17-224.us-west-2.compute.internal:56137
+Dec 14, 2018 11:47:50 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: Verified signature for host: ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:47:50 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: ID#1 Received INFO PUBLIC_KEY from ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:56137
+Dec 14, 2018 11:48:04 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server has received a packet from host: ip-172-31-17-224.us-west-2.compute.internal port: 55783
+Dec 14, 2018 11:48:04 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:48:04 PM com.concordia.blockchain.model.udp.RequestHandler verifySignature
+INFO: Verifying signature for host: ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER
+Dec 14, 2018 11:48:04 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: Verified signature for host: ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:48:04 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: ID#2 Received REQUEST MINERS from ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:55783
+Dec 14, 2018 11:48:04 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#2 RESPONSE MINERS to ip-172-31-17-224.us-west-2.compute.internal:55783
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server has received a packet from host: ip-172-31-17-224.us-west-2.compute.internal port: 43786
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.udp.RequestHandler verifySignature
+INFO: Verifying signature for host: ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: Verified signature for host: ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: ID#2 Received REQUEST MINERS from ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:43786
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.node.WorkerLeader sendResponse
+INFO: Sending response for tag: MINERS
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.node.WorkerLeader sendResponse
+INFO: Sent response for tag: MINERS
+Dec 14, 2018 11:48:05 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#2 RESPONSE MINERS to ip-172-31-17-224.us-west-2.compute.internal:43786
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server has received a packet from host: ip-172-31-17-224.us-west-2.compute.internal port: 40182
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.RequestHandler acknowledgeMessage
+INFO: Acknowledging ID#4 to ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:40182
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.RequestHandler verifySignature
+INFO: Verifying signature for host: ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 ACK PUBLIC_KEYS to ip-172-31-17-224.us-west-2.compute.internal:40182
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: Verified signature for host: ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: ID#4 Received INFO PUBLIC_KEYS from ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:40182
+Dec 14, 2018 11:48:46 PM com.concordia.blockchain.model.node.Manager run
+INFO: #END_TIMESTAMP 1544831326
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server has received a packet from host: ip-172-31-17-224.us-west-2.compute.internal port: 52174
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.RequestHandler acknowledgeMessage
+INFO: Acknowledging ID#4 to ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:52174
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.RequestHandler verifySignature
+INFO: Verifying signature for host: ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 ACK PUBLIC_KEYS to ip-172-31-17-224.us-west-2.compute.internal:52174
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: Verified signature for host: ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:48:47 PM com.concordia.blockchain.model.udp.RequestHandler processMessage
+INFO: ID#4 Received INFO PUBLIC_KEYS from ip-172-31-17-224.us-west-2.compute.internal#CORE_LEADER:52174

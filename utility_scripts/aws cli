@@ -1,0 +1,3 @@
+sudo pip install aws-shell
+aws-shell
+aws ec2 describe-instances --instance-ids i-019a234d6ef5edb83 --query 'Reservations[].Instances[].PublicDnsName'

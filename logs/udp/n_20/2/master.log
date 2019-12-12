@@ -1,0 +1,493 @@
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.udp.Server run
+INFO: Starting UDP server on port 12345
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.udp.Server startServer
+INFO: Server waiting for a packet
+Fri Dec 14 23:50:00 UTC 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.database.MySql openConnection
+INFO: Opened connection to database
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.database.MySql executeQuery
+INFO: Executing SELECT with statement: SELECT ip_addr, role_id, port FROM miner WHERE isblocked = 0
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: CORE_LEADER : ip-172-31-17-224.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-32-221.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-32-46.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-36-252.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-37-70.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-37-82.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-39-51.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-40-103.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: CORE_FOLLOWER : ip-172-31-40-118.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-40-168.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-40-204.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-40-53.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-41-30.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-41-88.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-43-219.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-43-237.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-43-39.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-46-196.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-46-9.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader setMiners
+INFO: NON_CORE_FOLLOWER : ip-172-31-47-31.us-west-2.compute.internal
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.ManagerLeader <init>
+INFO: #START_TIMESTAMP 1544831400
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-41-88.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-41-30.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-47-31.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-40-118.us-west-2.compute.internal#CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Additionally sent public key to ip-172-31-40-118.us-west-2.compute.internal#NON_CORE_LEADER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-46-9.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-40-204.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-46-196.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-36-252.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-43-39.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-40-168.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-40-53.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-39-51.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-43-219.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-37-82.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-32-46.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-40-103.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-32-221.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-37-70.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:00 PM com.concordia.blockchain.model.node.Node $anonfun$broadcastPublicKey$1
+INFO: Sent public key to ip-172-31-43-237.us-west-2.compute.internal#NON_CORE_FOLLOWER
+Dec 14, 2018 11:50:01 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:01 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-41-30.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:01 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:01 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:02 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-40-204.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:02 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:02 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:03 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-40-168.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:03 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:03 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:05 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-40-53.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:05 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:05 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:06 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-43-219.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:06 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:06 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:07 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-43-39.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:07 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:07 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:08 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-46-196.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:08 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:08 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:09 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-36-252.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:09 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:10 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:11 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-39-51.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:11 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:11 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:12 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-41-88.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:12 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:12 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:13 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-46-9.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:13 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:13 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:14 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-37-70.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:14 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:15 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:16 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-37-82.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:16 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:16 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:17 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-32-46.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:17 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:17 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:18 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-40-103.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:18 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:18 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:19 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-47-31.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:19 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:19 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:21 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-40-118.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:21 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:21 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:22 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-32-221.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:22 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:22 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:23 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-40-118.us-west-2.compute.internal:12347
+Dec 14, 2018 11:50:23 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:23 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:24 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-41-88.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:24 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:24 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:24 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:26 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 INFO PUBLIC_KEY to ip-172-31-43-237.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:26 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#1 Async try: + 0
+Dec 14, 2018 11:50:26 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#1 received acknowledgement
+Dec 14, 2018 11:50:27 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-41-30.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:27 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:27 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:27 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:28 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-47-31.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:28 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:28 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:28 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:29 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-40-118.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:29 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:29 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:29 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:30 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-40-118.us-west-2.compute.internal#CORE_LEADER:12347
+Dec 14, 2018 11:50:30 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:31 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:31 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:32 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-46-9.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:32 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:32 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:32 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:33 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-40-204.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:33 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:33 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:33 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:34 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-46-196.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:34 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:34 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:34 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:35 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-36-252.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:35 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:36 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:36 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:37 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-43-39.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:37 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:37 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:37 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:38 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-40-168.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:38 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:38 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:38 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:39 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-40-53.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:39 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:39 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:39 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:40 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-39-51.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:40 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:40 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:40 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:42 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-43-219.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:42 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:42 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:42 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:43 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-37-82.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:43 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:43 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:43 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:44 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-32-46.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:44 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:44 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:44 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:45 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-40-103.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:45 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:45 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:45 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:47 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-32-221.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:47 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:47 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:47 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:48 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-37-70.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:48 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:48 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:48 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Waiting for response
+Dec 14, 2018 11:50:49 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 REQUEST MINERS to ip-172-31-43-237.us-west-2.compute.internal#CORE_LEADER:12345
+Dec 14, 2018 11:50:49 PM com.concordia.blockchain.model.udp.SyncClient$ $anonfun$sendMessage$1
+INFO: ID#2 Sync try: 0
+Dec 14, 2018 11:50:49 PM com.concordia.blockchain.model.udp.SyncClient$ sendMessage
+INFO: ID#2 Received response
+Dec 14, 2018 11:50:49 PM com.concordia.blockchain.model.node.ManagerLeader run
+INFO: #END_TIMESTAMP 1544831449
+Dec 14, 2018 11:50:50 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-41-30.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:50 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:50 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:51 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-41-88.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:51 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:51 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:53 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-40-118.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:53 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:53 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:54 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-47-31.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:54 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:54 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:55 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-40-204.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:55 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:55 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:56 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-40-118.us-west-2.compute.internal:12347
+Dec 14, 2018 11:50:56 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:56 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:58 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-46-9.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:58 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:58 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:50:59 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-36-252.us-west-2.compute.internal:12345
+Dec 14, 2018 11:50:59 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:50:59 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:00 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-43-39.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:00 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:00 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:01 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-46-196.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:01 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:01 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:03 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-40-168.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:03 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:03 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:04 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-39-51.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:04 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:04 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:05 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-43-219.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:05 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:05 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:06 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-40-103.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:06 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:06 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:07 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-40-53.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:07 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:08 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:09 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-37-82.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:09 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:09 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:10 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-32-46.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:10 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:10 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:11 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-43-237.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:11 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:11 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:12 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-32-221.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:12 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:12 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement
+Dec 14, 2018 11:51:14 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 INFO PUBLIC_KEYS to ip-172-31-37-70.us-west-2.compute.internal:12345
+Dec 14, 2018 11:51:14 PM com.concordia.blockchain.model.udp.AsyncClient $anonfun$sendMessage$1
+INFO: ID#3 Async try: + 0
+Dec 14, 2018 11:51:14 PM com.concordia.blockchain.model.udp.AsyncClient sendMessage
+INFO: ID#3 received acknowledgement

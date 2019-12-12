@@ -1,0 +1,75 @@
+sudo apt-get update
+sudo apt-get install mysql-server
+
+
+## Set ubuntu password
+sudo passwd ubuntu
+
+## Start mysql server
+systemctl start mysql
+
+#Install Java
+sudo apt install openjdk-8-jre-headless
+
+#Install Scala
+sudo apt-get remove scala-library scala
+sudo wget http://scala-lang.org/files/archive/scala-2.12.6.deb
+sudo dpkg -i scala-2.12.6.deb
+sudo apt-get -i install
+rm -f scala-2.12.6.deb
+
+#Create log directory
+sudo mkdir ~/logs
+sudo chmod 777 ~/logs
+
+sudo mkdir ~/keys
+sudo chmod 777 ~/keys
+
+#Login ssh
+ssh -i .ssh/blockchain.pem ubuntu@ec2-18-236-73-81.us-west-2.compute.amazonaws.com
+
+#Copy file from local to aws machine
+#https://unix.stackexchange.com/questions/106480/how-to-copy-files-from-one-machine-to-another-using-ssh
+scp -i ~/.ssh/blockchain.pem /home/s_kante/temp ubuntu@ec2-52-34-81-107.us-west-2.compute.amazonaws.com:/home/ubuntu/
+
+#Copy a file from aws to local machine
+
+#To send a UDP packet
+echo -n "hello" >/dev/udp/remotehost/8000
+
+
+
+#kill a process running on specific port
+#ref: https://stackoverflow.com/questions/11583562/how-to-kill-a-process-running-on-particular-port-in-linux
+
+fuser -k 12345/udp
+
+cp /home/s_kante/research/code/research/scala/blockchain/target/scala-2.12/blockchain_research-assembly-1.0.jar ~/blockchain.jar
+scp -i ~/.ssh/blockchain.pem blockchain.jar ubuntu@35.162.209.20:/home/ubuntu/
+scp -i ~/.ssh/blockchain.pem blockchain.jar ubuntu@34.208.152.189:/home/ubuntu/
+scp -i ~/.ssh/blockchain.pem blockchain.jar ubuntu@54.214.178.156:/home/ubuntu/
+
+Project path on lab machine:
+/home/s_kante/research/code/research/scala/blockchain
+
+#Enable mysql remote access outside EC2
+Step 1: Modify /etc/mysql/my.cnf file as following. Add following two lines. there is a tab between key and = sign
+[mysqld]
+bind-address    = 0.0.0.0
+
+Step 2: Restart mysql server
+sudo /etc/init.d/mysql restart
+systemctl status mysql.service
+
+Step 3: Create a new user as following
+CREATE USER 'non-root-user'@'localhost' IDENTIFIED BY 'any_password_u_like';
+CREATE USER 'non-root-user'@'%' IDENTIFIED BY 'any_password_u_like';
+GRANT ALL ON *.* TO 'non-root-user'@'localhost';
+GRANT ALL ON *.* TO 'non-root-user'@'%';
+
+Ref: https://askubuntu.com/questions/787078/remotely-connect-to-amazon-aws-mysql
+
+#Remove a host from known_hosts
+ssh-keygen -R 35.182.242.215
+
+
